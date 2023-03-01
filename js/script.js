@@ -37,27 +37,27 @@
 // console.log('arr' + '- object');
 // console.log(4 + +'5');
 
-let incr = 10,
-    decr = 10;
+// let incr = 10,
+//     decr = 10;
 
-// incr++;
-// decr--;
+// // incr++;
+// // decr--;
 
-console.log(++incr);
-console.log(--decr);
+// // console.log(++incr);
+// // console.log(--decr);
 
-console.log(5%2); 
+// // console.log(5%2); 
 
-console.log(2*4 === '8');
-// % - остаток от деления 
-// = - присваивание 
-// == - сравнение 
-// === сравнение по типу данных
-// && - И
-// ||- или 
-// !- отрицание (меняет значение на обратное)
+// // console.log(2*4 === '8');
+// // // % - остаток от деления 
+// // // = - присваивание 
+// // // == - сравнение 
+// // // === сравнение по типу данных
+// // // && - И
+// // // ||- или 
+// // // !- отрицание (меняет значение на обратное)
 
-const biba = true,
-    boba = false; 
+// // const biba = true,
+// //     boba = false; 
 
-console.log(biba || boba);
+// // console.log(biba || boba);
