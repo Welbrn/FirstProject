@@ -2,7 +2,6 @@
 
 // alert('Hello'); 
 
-// eslint-disable-next-line no-unused-vars
 // const result = confirm('Are you here?');
 // console.log(result);
 
@@ -61,3 +60,30 @@
 // //     boba = false; 
 
 // // console.log(biba || boba);
+
+// alert('Hello');
+////////////////////////////////////////////////////////////////////////////////////////////
+const  numberOfFilm = +prompt ('Сколько фильмов посмотрели', '');
+
+const personaLMovieDB = {
+    count: numberOfFilm,
+    movies: {
+    
+    },
+    actors: {
+
+    },
+    genres: [],
+    private: false
+};
+
+    const a = prompt('один из последних просмотренных фильмов', ''),
+          b = prompt('на сколько оцените его?', ''),
+          c = prompt('один из последних просмотренных фильмов', ''),
+          d = prompt('на сколько оцените его?', '');
+
+
+personaLMovieDB.movies[a] = b;
+personaLMovieDB.movies[c] = d;
+
+console.log(personaLMovieDB);
