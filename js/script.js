@@ -126,3 +126,130 @@ console.log(personaLMovieDB);
 // }
 //////////////////////////////////////////////////////////////////////////////////////////
 
+// const humb = 5;
+// const fries  = 0;
+  
+// if (humb && fries) {
+//     console.log('E vkusno saipal!');
+// } 
+
+// console.log((humb && fries));
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+// const humb = 3;
+// const fries  = 1;
+// const cola = 0;
+
+// console.log(humb === 3 && cola && fries);
+// console.log(1 && 0);
+// console.log(1 &&5);
+// console.log(null && 5);
+// console.log(0 && 'biba?');
+
+// if (humb === 3 && cola === 1 && fries === 1) {
+//     console.log('E vkusno saipal!');
+// } else {
+//     console.log('Ne vkuso saipal(');
+// }
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// const humb = 1;
+// const fries  = 3;
+// const cola = 0;
+// const nugets = 2;
+
+
+// if (humb === 3  && cola === 2 || fries === 3 && nugets) {
+//     console.log('E vkusno saipal!');
+// } else {
+//     console.log('Ne vkuso saipal(');
+// }
+
+// console.log(humb === 3  && cola === 2 || fries === 3 && nugets)
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+// let johnReport, alexReport, samReport, mariaReport = 'sdali';
+
+// console.log(johnReport || alexReport || samReport || mariaReport);
+
+// console.log(!0);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//                     ЦИКЛЫ                               //
+
+
+// let num = 50;
+
+// while (num < 55) {
+//     console.log(num);
+//     num ++;
+// }
+
+
+
+// do  {
+//     console.log(num);
+//     num ++;
+// }
+// while (num < 55);
+
+
+// for (let  i =  1; i < 8; i++) {
+//     console.log(num);
+//     num++;
+// }
+
+
+// for (let  i =  1; i < 10; i++) {
+//     if (i === 6) {
+//         // break;
+           // continue;
+//     }
+
+//     console.log(i);
+// }
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// for (let i = 0; i < 3; i++) {
+//     console.log(i);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(j); 
+//     }
+// }
+
+
+// let result = '';
+// const  lenght = 11;
+
+// for (let i = 1; i < lenght;  i++) {
+
+//     for (let j = 0; j< i; j++) {
+//         result += '*';
+
+//     }
+
+//      result += '\n'                                          //ПЕРЕНОС НА ДРУГУЮ СТРОКУ
+// }
+
+
+// console.log(result);
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// first: for (let i = 0; i < 3; i++) {
+//     console.log(`first lvl:  ${i}`);
+//     for (let j = 0; j < 3; j++) {
+//         console.log(`second lvl: ${j}`);
+//     }
+//         for (let k = 0; k < 3; k++) {
+//             if (k === 2) continue first;
+//             console.log(`thitd lvl: ${k}`); 
+//         }
+
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
