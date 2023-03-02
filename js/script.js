@@ -63,28 +63,27 @@
 
 // alert('Hello');
 ////////////////////////////////////////////////////////////////////////////////////////////
-// const  numberOfFilm = +prompt ('Сколько фильмов посмотрели', '');
+const  numberOfFilm = +prompt ('Сколько фильмов посмотрели', '');
 
-// const personaLMovieDB = {
-//     count: numberOfFilm,
-//     movies: {
+const personaLMovieDB = {
+    count: numberOfFilm,
+    movies: {
     
-//     },
-//     actors: {
+    },
+    actors: {
 
-//     },
-//     genres: [],
-//     private: false
-// };
+    },
+    genres: [],
+    private: false
+};
 
-//     const a = prompt('один из последних просмотренных фильмов', ''),
-//           b = prompt('на сколько оцените его?', ''),
-//           c = prompt('один из последних просмотренных фильмов', ''),
-//           d = prompt('на сколько оцените его?', '');
+    const a = prompt('один из последних просмотренных фильмов', ''),
+          b = prompt('на сколько оцените его?', ''),
+          c = prompt('один из последних просмотренных фильмов', ''),
+          d = prompt('на сколько оцените его?', '');
 
 
-// personaLMovieDB.movies[a] = b;
-// personaLMovieDB.movies[c] = d;
+personaLMovieDB.movies[a] = b;
+personaLMovieDB.movies[c] = d;
 
-// console.log(personaLMovieDB);
-//////////////////////////////////////////////////////////////////////////////////////////////
+console.log(personaLMovieDB);
