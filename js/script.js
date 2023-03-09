@@ -24,8 +24,8 @@ const personaLMovieDB = {
 
 function rememberMyFilms () {
 	for (let i = 0; i < 2; i++) {
-		const a = prompt('один из последних просмотренных фильмов', ''),
-			b = prompt('на сколько оцените его?', '');
+		const a = prompt('один из последних просмотренных фильмов', '').trim(),
+			b = prompt('на сколько оцените его?', '').trim();
 	
 		if (a != null && b != null && a != '' && b != '' && a.length < 50 && b.length < 50) {
 			personaLMovieDB.movies[a] = b;
