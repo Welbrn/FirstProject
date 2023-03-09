@@ -437,120 +437,120 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////ФУНКЦИИ////////////////////////////////////////////////////////////////////////////
 
-// let num = 20;
+let num = 20;
 
-// function showfirstmassage(text) {
-// 	console.log(text);
-// 	let num = 10;
-// 	console.log(num);
-// }
+function showfirstmassage(text) {
+	console.log(text);
+	let num = 10;
+	console.log(num);
+}
 
-// showfirstmassage('helo world');
-// console.log(num);
+showfirstmassage('helo world');
+console.log(num);
 /////////////////////////////////////////////////////
 
-// function calc (a, b) {
-// 	return (a + b);
-// }
-// console.log(calc(4, 3));
-// console.log(calc(5, 9));
-// console.log(calc(1, 2));
+function calc (a, b) {
+	return (a + b);
+}
+console.log(calc(4, 3));
+console.log(calc(5, 9));
+console.log(calc(1, 2));
 ////////////////////////////////////////
 
-// function ret() {
-// 	let num = 50;
-// 	return num;
-// }
+function ret() {
+	let num = 50;
+	return num;
+}
 
-// const anotherNum = ret();
-// console.log(anotherNum);
+const anotherNum = ret();
+console.log(anotherNum);
 ///////////////////////////////////////
 
-// const loger = function() {
-// 	console.log('hello');
-// };
+const loger = function() {
+	console.log('hello');
+};
 
-// loger();
+loger();
 /////////////////////////////////////
 
-// const calc = (a, b) => { return a + b};
-/////////////////////////////////////////
-// const calc = (a, b) => { 
-// 	console.log('1');
-// 	return a + b;
-// };
-/////////////////////////////////////////
-
-// const usdCurr = 24;
-// const eurCurr = 32;
-
-// function convert(amount, curr) {
-// 	console.log(curr * amount);
-// }
-
-// convert(500, usdCurr);
-// convert(500, eurCurr);
+const calc = (a, b) => { return a + b};
+///////////////////////////////////////
+const calc = (a, b) => { 
+	console.log('1');
+	return a + b;
+};
 /////////////////////////////////////////
 
-// const usdCurr = 28;
-// const discount = 0.9;
+const usdCurr = 24;
+const eurCurr = 32;
 
-// function convert(amount, curr) {
-// 	return curr * amount;
-// }
+function convert(amount, curr) {
+	console.log(curr * amount);
+}
 
-// function promotion(result) {
-// 	console .log(result * discount); 
+convert(500, usdCurr);
+convert(500, eurCurr);
+/////////////////////////////////////////
+
+const usdCurr = 28;
+const discount = 0.9;
+
+function convert(amount, curr) {
+	return curr * amount;
+}
+
+function promotion(result) {
+	console .log(result * discount); 
     
-// }
+}
 
-// const res = convert(500, usdCurr);
-// promotion(res);
+const res = convert(500, usdCurr);
+promotion(res);
 //////////////////////////////////////////
 
-// function test() {
-//     for(let i = 0; i < 5; i++) {
-//         console.log(i);
-//         if (i === 3) return
-//     }
-//     console.log('done');
-// }
-// test();
+function test() {
+    for(let i = 0; i < 5; i++) {
+        console.log(i);
+        if (i === 3) return
+    }
+    console.log('done');
+}
+test();
 ////////////////////////////////////////////
 
-// function doNithing() {}
-//     console.log(doNithing() === undefined);
+function doNithing() {}
+    console.log(doNithing() === undefined);
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////HOME WORK///////////////////////////////////////////////////////////////////////////////
-// function sayHello(name) {
-//     return `Hello, ${name}!`;
-// }
-// sayHello ('Andrey');
-//////////////////////////////////////////
-// function returnNeighboringNumbers(num) {
-//     return [num - 1, num, num + 1];
-// }
-// returnNeighboringNumbers(5);
-//////////////////////////////////////////
-// function getMathResult(num, povtor) {
-// 	if (typeof(povtor) !== 'number' || povtor <= 0) {
-// 		return num;
-// 	}
+function sayHello(name) {
+    return `Hello, ${name}!`;
+}
+sayHello ('Andrey');
+////////////////////////////////////////
+function returnNeighboringNumbers(num) {
+    return [num - 1, num, num + 1];
+}
+returnNeighboringNumbers(5);
+////////////////////////////////////////
+function getMathResult(num, povtor) {
+	if (typeof(povtor) !== 'number' || povtor <= 0) {
+		return num;
+	}
 
-// 	let str = '';
+	let str = '';
 
-// 	for (let i = 1; i <= povtor; i++) {
-// 		if (i === povtor) {
-// 			str += `${num * i}`;
-// 		} else {
-// 			str += `${num * i}---`;
-// 		}
-// 	}
+	for (let i = 1; i <= povtor; i++) {
+		if (i === povtor) {
+			str += `${num * i}`;
+		} else {
+			str += `${num * i}---`;
+		}
+	}
 
-// 	return str;
-// }
+	return str;
+}
 
-// getMathResult(10, 5);
+getMathResult(10, 5);
 //////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////МЕТОДЫ/////////////////////////////////////////////////////////////////////////////////////
@@ -757,13 +757,13 @@ arr.forEach(function(num, nomerPoPoradku, arr) {                                
 
 arr.pop();                                                   //УДАЛЯЕТ ПОСЛЕДНИЙ ЭЛЕМЕНТ ИЗ МАССИВА
 arr.push(10);                                                    //ДОБАВЛЯЕТ ЭЛЛЕМЕНТ В КОНЕЦ МАССИВА
-arr.shift();                                                               //... В НАЧАЛО МАССИВА
-arr.unshift(10);                                                             //... В КОНЕЦ МАССИВА
+arr.shift();                                                               //... В НАЧАЛЕ МАССИВА
+arr.unshift(10);                                                             //... В НАЧАЛЕ МАССИВА
 
 console.log(arr);
 
 for(let i = 0; i < arr.length; i++) {
-console.log(arr[i]);
+	console.log(arr[i]);
 }
 // ||
 for(let value of arr) {
@@ -794,20 +794,20 @@ b = b + 5;
 console.log(b);
 console.log(a);
 //////////////////////////////////////////////////////
-// const obj = {
-// 	a: 5,
-// 	b: 1
-// };
+const obj = {
+	a: 5,
+	b: 1
+};
 
-// const copy = obj;   // ССЫЛКА НА ОБЪЕКТ
+const copy = obj;   // ССЫЛКА НА ОБЪЕКТ
 
-// copy.a = 10;
+copy.a = 10;
 
-// console.log(copy);
-// console.log(obj);
+console.log(copy);
+console.log(obj);
 ///////////////////////////////////////////////////
 
-function copy(mainObj) {
+function copyrigh(mainObj) {
 	let objCopy = {};
 
 	let key;
@@ -858,8 +858,8 @@ console.log(oldArray);
 /////////////////////////////////////////////////////////
 
 const video = ['youtube', 'vimeo', 'netflix'],
-	  blogs = ['wordpress', 'livejournal', 'blogger'],
-	  internet = [...video, ...blogs, 'telegram', 'reddit'];
+	blogs = ['wordpress', 'livejournal', 'blogger'],
+	internet = [...video, ...blogs, 'telegram', 'reddit'];
 
 console.log(internet);
 ///////////////////////////////////////////////////////////////////
@@ -869,14 +869,15 @@ function log(a, b, c) {
 	console.log(c);
 }
 
-const num = [2, 5, 7];
+const numbar = [2, 5, 7];
 
 log(...num);
 ///////////////////////////////////////////////////////////////////
 
 const array = ['a',  'b'];
 
-const newArray = [...array];
+// eslint-disable-next-line no-unused-vars
+const newArrrray = [...array];
 ////////////////////////////////////////////////////////////////////
 const  q  = {
 	one: 1,
@@ -884,5 +885,107 @@ const  q  = {
 };
 
 const newObj = {...q};
-////////////////////////////////////////////////////////////////////
+console.log(newObj);
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////HOME WORK/////////////////////////////////////////////////////////
 
+const personalPlanPeter = {
+	name: 'Peter',
+	age: '29',
+	skills: {
+		languages: ['ru', 'eng'],
+		programmingLangs: {
+			js: '20%',
+			php: '10%'
+		},
+		exp: '1 month'
+	},
+	showAgeAndLangs: function(plan) {
+		const {age} = plan;
+		const {languages} = plan.skills;
+		let str = `Мне ${age} и я владею языками: `;
+
+		languages.forEach(function(lang) {
+			str += `${lang.toUpperCase()} `;
+		});
+
+		return str;
+	}
+};
+
+personalPlanPeter.showAgeAndLangs(personalPlanPeter);
+
+function showExperience(plan) {
+	const {exp} = plan.skills;                                        //ДЕСТРУКТУРИЗАЦИЯ ОБЪЕКТА  извлекаем свойство exp из объекта plan.skills и сохраняем его в переменной exp
+	return exp;
+}
+
+showExperience(personalPlanPeter);
+
+function showProgrammingLangs(plan) {
+	let str = '';
+	const {programmingLangs} = plan.skills;
+	for (let key in programmingLangs) {
+		str += `Язык ${key} изучен на ${programmingLangs[key]}\n`;
+	}
+
+	return str;
+}
+
+showProgrammingLangs(personalPlanPeter);
+/////////////////////////////////////////////////////////////////////////////
+
+const family = ['Peter', 'Ann', 'Alex', 'Linda'];
+
+function showFamily(arr) {
+    let str = '';
+
+    arr.length === 0 ? str = 'Семья пуста' : str = 'Семья состоит из: ';                               //ANALOG IF - `?`, ELSE - `:`;
+
+    arr.forEach(member => {
+        str += `${member} `
+    });
+
+    return str;
+}
+
+
+const favoriteCities = ['liSBon', 'ROME', 'miLan', 'Dublin'];
+
+function standardizeStrings(arr) {
+    arr.forEach(city => {
+        console.log(city.toLowerCase())
+    })
+}
+
+standardizeStrings(favoriteCities);
+///////////////////////////////////////////////////////////////////////////////////
+
+const someString = 'This is some strange string';
+
+function reverse(str) {
+      if (typeof(str) !== 'string') {
+        return "Ошибка!";
+    } else {
+    return str.split('').reverse().join('');
+    }
+}
+
+
+const baseCurrencies = ['USD', 'EUR'];
+const additionalCurrencies = ['UAH', 'RUB', 'CNY'];
+
+function availableCurr(arr, missingCurr) {
+    let str = '';
+    arr.length === 0 ? str = 'Нет доступных валют' : str = 'Доступные валюты:\n';
+
+    arr.forEach(function(curr) {
+        if (curr !== missingCurr) {
+            str += `${curr}\n`;
+        }
+    });
+	return str;
+}
+
+availableCurr([...baseCurrencies, ...additionalCurrencies], 'CNY');
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
